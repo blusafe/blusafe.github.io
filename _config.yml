@@ -15,8 +15,8 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: xml
 
-#header_pages:
-#  - get_started.md
+header_pages:
+   - about.md
 #  - forums.md
 #  - showcases.md
 #  - integrations.md
