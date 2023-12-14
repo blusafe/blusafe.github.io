@@ -9,9 +9,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <h1>Welcome to BluGuard</h1>
-            <p>We safeguard your digital space, allowing you to focus on what matters most.</p>
-            
+            <h3>We safeguard your digital space, allowing you to focus on what matters most.</h3>
+            <p>
+              We are data-driven cyber insurance provider through integrated security capabilities.
+            </p>
             <a href="http://cal.com/ashishmishra"><button type="button" class="btn btn-outline-light">Book a call</button></a>
             
           </div>
@@ -21,26 +22,10 @@
         </div>
       </div>
     </div>
-    <div class="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <img class="img-fluid" alt="theBluGuard" src="{% link assets/images/visuals/visual4.png %}">
-          </div>
-          <div class="col-md-5">
-            <h2>Focus on your product, let us take care of rest</h2>
-            <p>
-              We are data-driven cyber insurance provider through integrated security capabilities.
-            </p>
-          </div>
-        </div>
-      </div>
-      
-      
-    </div>
+    
     <div class="moreFeatures">
       <div class="container-fluid text-center">
-        <h2>We are a lot more than cyber insurance</h2>
+        <h2>We are a lot more than cyber insurance...</h2>
         <div class="row">
           {% for feature in site.data.features %}
           <div class="feature col-lg-4 col-md-6 col-xs-12">
@@ -53,18 +38,7 @@
       </div>
     </div>
     
-    <div class="users">
-      <div class="container text-center">
-        <h2>Trusted by top companies from all around the world</h2>
-        <ul class="companies">
-          {% for user in site.data.users %}
-          <li>
-            {% include {{ user.id | prepend: 'users/' | append: '.svg' }} %}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
+    
   </div>
   {% include footer.html %}
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
