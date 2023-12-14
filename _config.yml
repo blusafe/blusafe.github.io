@@ -1,12 +1,11 @@
-title: Fuse Open
-email: fuse-open@googlegroups.com
+title: theBluGuard
+email: ashish@theBluGuard.com
 description: >-
-  Create better native apps for iOS and Android with a new breed of
-  development tools.
+  We safeguard your digital space, allowing you to focus on what matters most.
 baseurl: ""
-url: "https://fuse-open.github.io"
-twitter_username: fuseopen
-github_username:  fuse-open
+url: "https://theblugguard.com"
+twitter_username: bluguardhq
+github_username:  blusafe
 logo: "assets/logo.png"
 
 # Build settings
@@ -18,11 +17,7 @@ kramdown:
 
 header_pages:
   - get_started.md
-  - url: /docs/
-    title: Documentation
   - forums.md
-  - url: /examples/
-    title: Examples
   - showcases.md
   - integrations.md
 
